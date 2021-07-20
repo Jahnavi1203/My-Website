@@ -1,0 +1,36 @@
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color:chartreuse;
+}
+#game{
+    width:100%;
+    height:800px;
+    background-color:aqua;
+}
+img{
+    transition:transform .2s;
+}
+img:hover{
+transform:scale(0.9);
+}
+#botapp{
+    width:100%;
+    height:800px;
+    background-color:darkgoldenrod;
+}
+body{
+    text-align:center;
+}
+h1{
+    font-size:40px;
+    font-family:monospace;
+    font-weight:300;
+}
